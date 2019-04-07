@@ -26,7 +26,7 @@ class _ProductManagerState extends State<ProductManager> {
 
   void _addProducts(String product) {
     setState(() {
-      _products.add('Adavanced Food Tester');
+      _products.add(product);
     });
   }
 
