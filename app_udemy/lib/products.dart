@@ -18,7 +18,7 @@ class Products extends StatelessWidget {
     );
   }
 
-  Widget _buildProductList(){
+  Widget _buildProductList() {
     Widget productCard = Center(
       child: Text("No Products found, please add some"),
     );
@@ -31,15 +31,9 @@ class Products extends StatelessWidget {
     return productCard;
   }
 
-
-   @override
+  @override
   Widget build(BuildContext context) {
     print('[Products Widget] build()');
     return _buildProductList();
-    
-}
-
   }
-
- 
-
+}
